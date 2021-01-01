@@ -1,0 +1,1141 @@
+html{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.ti {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px solid gray;
+    margin: 0;
+    padding: 20px;
+}
+
+.ti2 {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 50%;
+
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px solid gray;
+    margin: 0 auto;
+    padding: 20px;
+}
+a:link {
+    color: plum;
+}
+a:visited {
+    color: plum;
+}
+body>ul>li>a:hover {
+    background-color: yellow;
+}
+body {
+    font-family: 'Jua', sans-serif;
+}
+ul {
+    font-size: 20px;
+}
+
+
+nav{
+    position: fixed;
+    background-color: #FE9A2E;
+    border:2px solid #232833;
+    float: left;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;;
+    box-sizing: border-box;
+}
+
+nav > * {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+article{
+    border:1px solid #FE9A2E;
+    float: right;
+    width: 85%;
+    padding: 1%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    background-color:#FBEAC8 ;
+}
+/* iframe:hover{
+    pointer-events: none;
+    opacity: 0;
+} */
+
+#HIF {
+    
+    pointer-events: none;
+    opacity: 0;
+
+     position: fixed; 
+    left: 16%;
+
+    right: 2%;
+    top: 2%;
+    bottom: 2%;
+
+    width: 80%;
+    height: 92%;
+
+    margin: 0 auto;
+    background-color:#D8D8D8 ;
+}
+
+
+#HBT{
+    pointer-events: auto;
+    position: fixed; 
+    left: 90%;
+
+    right: 2%;
+    top: 2%;
+    
+    bottom: 90%;
+    
+
+    width: 8%;
+    height: 8%;
+
+    border:0px solid black;
+
+    margin: 0 auto;
+} 
+
+#HBT img{
+    clear: none;
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+#HIF2{
+    display: block;
+     position: fixed; 
+    left: 18%;
+
+    right: 4%;
+    top: 4%;
+    bottom: 4%;
+
+    width: 78%;
+    height: 90%;
+
+    margin: 0 auto;
+}    
+
+body{ 
+    background:white;
+}
+   
+#table{
+    border:1px solid black;
+    background:#FE9A2E;
+    font-size: xx-large;
+
+}
+#table td:hover{
+    background:yellow;
+}
+
+#table td{
+    border:1px solid black;
+    background:#FBEAC8;
+    letter-spacing: 300%;
+}
+td a{
+    font-size:2.2vw;
+}
+
+img{
+    border:1px solid black;
+}
+
+.box{
+    margin: 100px auto;
+    width: auto;
+    height: 50px;
+    
+}  
+
+  .container-4{
+    overflow: hidden;
+    width: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .container-4 input#search{
+    width: auto;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #fff;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .container-4 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+  
+ .container-4 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+  
+ .container-4 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+
+ .container-4 button.icon{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    border: none;
+    background: #232833;
+    height: 50px;
+    width: 50px;
+    color: #4f5b66;
+    opacity: 0;
+    font-size: 10pt;
+   
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+  }
+
+  .container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+  }
+ 
+  .container-4:hover button.icon:hover{
+    background: white;
+  }
+#시그너스, #모험가, #레지스탕스, #영웅, #노바, #레프, #아니마, #제로, #키네시스{
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+#시그name1, #시그1, #시그name2, #시그2, #모궁name,
+#모궁, #모도name, #모도, #모전name, #모전, #모법name, 
+#모법, #모해name, #모해, #레지1name, #레지1, #영웅1name, 
+#영웅1, #영웅2name, #영웅2, #노바1name, #노바1, #레프1name, #레프1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#아니마1name, #아니마1, #제로1name, #제로1, #키네시스1name, #키네시스1{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+#레지2name, #레지2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+a{
+    text-decoration: none;
+}
+#플위{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #a81e1e;
+}
+#플위head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #a81e1e;
+}
+
+legend{
+    padding: 0px;
+}
+.플위s1 > fieldset > legend{
+    color:crimson;
+}
+fieldset{
+    border: none;
+}
+#윈브head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: darkgreen;
+}
+#윈브{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: darkgreen;
+}
+.윈브s1 > fieldset > legend{
+    color:#28d13e;
+}
+#나워head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: midnightblue;
+}
+#나워{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: midnightblue;
+}
+.나워s1 > fieldset > legend{
+    color:#011645;
+}
+#소마head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: gold;
+}
+#소마{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: gold;
+}
+.소마s1 > fieldset > legend{
+    color: goldenrod;
+}
+#스커head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: lightseagreen;
+}
+#스커{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: lightseagreen;
+}
+.스커s1 > fieldset > legend{
+    color: lightskyblue;
+}
+#미하일head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #f2ef41;
+}
+#미하일{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #f2ef41;
+}
+.미하일s1 > fieldset > legend{
+    color: #d6d43e;
+}
+#패파head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #2b1266;
+}
+#패파{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #2b1266;
+}
+.패파s1 > fieldset > legend{
+    color: #7c60bd;
+}
+#신궁head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #94ab3a;
+}
+#신궁{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #94ab3a;
+}
+.신궁s1 > fieldset > legend{
+    color: #d0e86d;
+}
+#보마head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5bb0de;
+}
+#보마{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5bb0de;
+}
+.보마s1 > fieldset > legend{
+    color: #5451f0;
+}
+#듀블head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #690000;
+}
+#듀블{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #690000;
+}
+.듀블s1 > fieldset > legend{
+    color: #a30000;
+}
+
+#비숍head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #fae257;
+}
+#비숍{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #fae257;
+}
+.비숍s1 > fieldset > legend{
+    color: #f2d218;
+}
+
+#나로head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #990672;
+}
+#나로{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #990672;
+}
+.나로s1 > fieldset > legend{
+    color: #730054;
+}
+
+#섀도어head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #850514;
+}
+#섀도어{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #850514;
+}
+.섀도어s1 > fieldset > legend{
+    color: #5c030d;
+}
+
+#혀로head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #f2b738;
+}
+#혀로{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #f2b738;
+}
+.혀로s1 > fieldset > legend{
+    color: #fcd174;
+}
+
+#팔라head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ffe875;
+}
+#팔라{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ffe875;
+}
+.팔라s1 > fieldset > legend{
+    color: #fadf5a;
+}
+
+#닼나head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #4c0691;
+}
+#닼나{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #4c0691;
+}
+.닼나s1 > fieldset > legend{
+    color: #6508c2;
+}
+
+#불독head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ba0202;
+}
+#불독{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ba0202;
+}
+.불독s1 > fieldset > legend{
+    color: #750000;
+}
+
+#썬콜head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #3a86de;
+}
+#썬콜{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #3a86de;
+}
+.썬콜s1 > fieldset > legend{
+    color: #6094d1;
+}
+
+#바이퍼head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ede677;
+}
+#바이퍼{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ede677;
+}
+.바이퍼s1 > fieldset > legend{
+    color: #f5f0a6;
+}
+
+#캐슈head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #470707;
+}
+#캐슈{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #470707;
+}
+.캐슈s1 > fieldset > legend{
+    color: #590404;
+}
+
+#캡틴head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #8c6f3f;
+}
+#캡틴{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #8c6f3f;
+}
+.캡틴s1 > fieldset > legend{
+    color: #d1a966;
+}
+
+#데슬head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ac14e3;
+}
+#데슬{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ac14e3;
+}
+.데슬s1 > fieldset > legend{
+    color: #770d9e;
+}
+
+#데벤져head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5a18c4;
+}
+#데벤져{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5a18c4;
+}
+.데벤져s1 > fieldset > legend{
+    color: #743ccf;
+}
+
+#블래head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ed2626;
+}
+#블래{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #ed2626;
+}
+.블래s1 > fieldset > legend{
+    color: #e8372a;
+}
+
+#제논head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #08cdd4;
+}
+#제논{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #08cdd4;
+}
+.제논s1 > fieldset > legend{
+    color: #34e7ed;
+}
+
+#베메head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #23074a;
+}
+#베메{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #23074a;
+}
+.베메s1 > fieldset > legend{
+    color: #3e1d6e;
+}
+
+#메카head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #471a09;
+}
+#메카{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #471a09;
+}
+.메카s1 > fieldset > legend{
+    color: #453029;
+}
+
+#와헌head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #8afffb;
+}
+#와헌{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #8afffb;
+}
+.와헌s1 > fieldset > legend{
+    color: #aaf0ee;
+}
+
+#루미head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #230133;
+}
+#루미{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #230133;
+}
+.루미s1 > fieldset > legend{
+    color: #510078;
+}
+
+#팬텀head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #43d6de;
+}
+#팬텀{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #43d6de;
+}
+.팬텀s1 > fieldset > legend{
+    color: #74e7ed;
+}
+
+#메세head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #33e8d6;
+}
+#메세{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #33e8d6;
+}
+.메세s1 > fieldset > legend{
+    color: #34facc;
+}
+
+#에반head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #296ef0;
+}
+#에반{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #296ef0;
+}
+.에반s1 > fieldset > legend{
+    color: #5b90f5;
+}
+
+#은월head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #29f2b3;
+}
+#은월{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #29f2b3;
+}
+.은월s1 > fieldset > legend{
+    color: #2cde7f;
+}
+
+#아란head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5be3e3;
+}
+#아란{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5be3e3;
+}
+.아란s1 > fieldset > legend{
+    color: #93f5f5;
+}
+
+#엔버head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #e66add;
+}
+#엔버{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #e66add;
+}
+.엔버s1 > fieldset > legend{
+    color: #e681de;
+}
+
+#카이저head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5c1010;
+}
+#카이저{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #5c1010;
+}
+.카이저s1 > fieldset > legend{
+    color: #800101;
+}
+
+#카데나head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #c010c9;
+}
+#카데나{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #c010c9;
+}
+.카데나s1 > fieldset > legend{
+    color: #ca3fd1;
+}
+
+#아델head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #2aa7d1;
+}
+#아델{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #2aa7d1;
+}
+.아델s1 > fieldset > legend{
+    color: #34e3e0;
+}
+
+#아크head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #630505;
+}
+#아크{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #630505;
+}
+.아크s1 > fieldset > legend{
+    color: #400a0a;
+}
+
+#일리움head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #0fbcd6;
+}
+#일리움{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #0fbcd6;
+}
+.일리움s1 > fieldset > legend{
+    color: #35d7f0;
+}
+
+#호영head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #18dede;
+}
+#호영{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #18dede;
+}
+.호영s1 > fieldset > legend{
+    color: #31f5f5;
+}
+
+#제로head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #912a2a;
+}
+#제로h{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #912a2a;
+}
+.제로s1 > fieldset > legend{
+    color: #a33636;
+}
+
+#키네head{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #403b3b;
+}
+#키네h{
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid gray;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    color: #403b3b;
+}
+.키네s1 > fieldset > legend{
+    color: #696161;
+}
+
+#플위s, #키네s, #제로s, #호영s, #일리움s, #아크s, #아델s, #카데나s, #카이저s, #엔버s, #아란s, #은월s, #에반s, #메세s, #팬텀s, #루미s, #와헌s, #메카s, #베메s, #제논s, #블래s, #데벤져s, #데슬s, #캡틴s, #바이퍼s, #캐슈s, #나워s, #썬콜s, #윈브s, #소마s, #스커s, #미하일s, #패파s, #신궁s, #보마s, #불독s, #듀블s, #비숍s, #닼나s, #나로s, #섀도어s, #혀로s, #팔라s{
+    text-align: start;
+}
+.플위s1, .키네s1, .제로s1, .호영s1, .일리움s1, .아크s1, .아델s1, .카데나s1, .카이저s1, .엔버s1, .엔버s1, .아란s1, .은월s1, .에반s1, .메세s1, .팬텀s1, .루미s1, .와헌s1, .메카s1, .베메s1, .제논s1, .블래s1, .데벤져s1, .데슬s1, .캡틴s1, .바이퍼s1, .캐슈s1, .나워s1, .썬콜s1, .윈브s1, .소마s1, .스커s1, .미하일s1, .패파s1, .신궁s1, .불독s1, .보마s1 , .듀블s1, .닼나s1, .비숍s1, .나로s1, .팔라s1, .섀도어s1, .혀로s1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.플위e, .키네e, .제로e, .호영e, .일리움e, .아크e, .아델e, .카데나e, .카이저e, .엔버e, .아란e, .은월e, .에반e, .메세e, .팬텀e, .루미e, .와헌e, .메카e, .베메e, .제논e, .블래e, .데벤져e, .데슬e, .캡틴e, .바이퍼e, .캐슈e, .나워e, .윈브e, .썬콜e, .소마e, .스커e, .미하일e, .패파e, .신궁e, .보마e, .불독e, .듀블e, .비숍e, .닼나e, .나로e, .섀도어e, .혀로e, .팔라e{
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 10px;
+}
+.플위i, .키네i, .제로i, .호영i, .일리움i, .아크i, .아델i, .카데나i, .카이저i, .엔버i, .아란i, .은월i, .에반i, .메세i, .팬텀i, .루미i, .와헌i, .메카i, .베메i, .제논i, .블래i, .데벤져i, .데슬i, .캡틴i, .바이퍼i, .캐슈i, .나워i, .윈브i, .썬콜i, .소마i, .스커i, .미하일i, .패파i, .신궁i, .불독i, .보마i, .듀블i, .비숍i, .닼나i, .나로i, .섀도어i, .혀로i, .팔라i{
+    width: auto; height: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
